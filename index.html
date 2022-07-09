@@ -19,17 +19,19 @@
     <script async src="https://imgbb.com/upload.js"></script>
     <header>
         <nav>
-                <a href="#textos-header">Inicio</a>
-                <a href="#acerca-de este espacio">Acerca de</a> 
-                <a href="#servicios">Servicios</a>
-                <a href="#enviarCv">EnviarCv</a>
-                <a href="#contacto">Contacto</a>          
+            <ul>
+                <li><a href="#textos-header">Inicio</a></li>
+                <li><a href="#acerca-de este espacio">Acerca de</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#enviarCv">Enviar Cv</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>         
         </nav>
         <section id="textos-header">
             <h1>Envianos tus consultas</h1>
             <h2>Te acompañamos en la búsqueda de empleo</h2>
         </section>
-        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C136.84,110.84 404.91,-39.14 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C136.84,110.84 404.91,-39.14 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill:#B3F0E3 ;"></path></svg></div>
     </header>
     <main>
 
@@ -43,7 +45,7 @@
                 <img src="/assets/Bienvenidos.png" alt="">
                 <div class="contenido-textos">
                     <h3><span>1 </span>Nuestro objetivo</h3>
-                    <p> ESPACIO HUMANO RRHH: Surge como el resultado de una idea y despues de muchas dudas, e incertidumbres, queremos poder concretarla. <br>El nombre está pensado porque consideramos que el mundo nos necesita mas HUMANOS, para poder fortalecer relaciones y vínculos de solidaridad y esperanza. <br>Creemos que es importante poder brindar, facilitar, poner a dispoción, algo de cada uno para poder construir un mundo mejor. Y ese es el principal objetivo de nuestro trabajo. 
+                    <p> ESPACIO HUMANO RRHH: Surge como el resultado de una idea y despues de muchas dudas, e incertidumbres, queremos poder concretarla. <br>El nombre está pensado porque consideramos que el mundo nos necesita mas HUMANOS, para poder fortalecer relaciones y vínculos de solidaridad y esperanza. <br>Creemos que es importante poder brindar, facilitar, poner a disposición, algo de cada uno para poder construir un mundo mejor. Y ese es el principal objetivo de este espacio. 
                     <h3><span>2 </span>Entrevistas personales</h3>
                     <p> Nuestro propósito es crear un espacio profesional en el cual puedas encontrar información sobre: <br>-Recursos Humanos <br>-Mundo laboral <br>-Búsquedas laborales <br>-Compartir experiencias juntos. <br><br>Muchas gracias por sumarte a este espacio.<br><br> Eliana Franzoi <br>Licenciada en Recursos Humanos <br>Estudiante de Psicología</p></p>
                      
@@ -52,33 +54,33 @@
             </div>
         </section>
         <!--CONTENIDOS SERVICIOS-->
-        <section id="servicios">
+        <div id="servicios">
                 <h2 id="servicios">Servicios</h2>
-                <p id="servicios">Nuestro aporte como profesinal es brindarte un apoyo en tu búsqueda de empleo, <br> podés postularte completando el formulario con tus datos y adjuntando tu curriculum vitae. <br> No dudes en escribir un correo o comunicate vía llamadas o WhatsApp en nuestro apartado de (contactos).<br></p>
-                
+                <p>Nuestro aporte como profesinal es brindarte un apoyo en tu búsqueda de empleo, <br> podés postularte completando el formulario con tus datos y adjuntando tu curriculum vitae. <br> No dudes en escribir un correo o comunicate vía llamadas o WhatsApp en nuestro apartado de (contactos).<br></p>
                     <div class="hover-imagenes">
-                        <img src="/assets/Idea.png" alt="">
+                        <img src="./assets/imagen-servicio.webp" alt="">
                     </div>
-                </div>
-            </div>
+             </div>
+        </div>
+        </section>
             <!-- SECCION DE ENVIAR CV-->
         </section>
             <h2 id="enviarCv">Enviar Cv</h2>
             <div id="#enviarCv">
                 <div class="formulario">
                     <form action="mailto:espacio.humano.rrhh@gmail.com" method="post" enctype="text/plain">
-                        <p>Nombre: <input type="text" name="Nombre:"/> <br>
-                           Apellido: <input type="text" name="Apellido:" size="20"/><br><br>
-                           Documento: <input type="number" name="Documento:"/><br><br>
-                           Edad: <input type="number" name="Edad:"/><br><br>
-                           Teléfono: <input type="number" name="Teléfono:"/><br><br>
-                           Estado civil: <input type="text" name="Estado civil:"/><br><br>
-                           Nacionalidad: <input type="text" name="Nacionalidad:"/></p>
+                        <div> Nombre: <input type="text" name="Nombre:"/></div>
+                        <div> Apellido: <input type="text" name="Apellido:" size=""/></div>
+                            <div> Documento: <input type="number" name="Documento:"/></div>
+                                <div> Edad: <input type="number" name="Edad:"/></div>
+                                    <div>Teléfono: <input type="number" name="Teléfono:"/></div>
+                                        <div>Estado civil: <input type="text" name="Estado civil:"/></div>
+                                            <div>Nacionalidad: <input type="text" name="Nacionalidad:"/></div>
                            
-                        <p>Domicilio: <input type="text" name="Domicilio:" size="25" value=""/></p>
-                        <p>Correo: <input type="text" name="Correo:" size="30" value:" @"/></p>
-                        <p>Contraseña: <input type="password" name=""/><br/><br>
-                        <p>Sexo:<br/><br>
+                        <div> Domicilio: <input type="text" name="Domicilio:" size="" value=""/></div>
+                        <div> Correo: <input type="text" name="Correo:" size="" value:" @"/> <div>
+                        <div> Contraseña: <input type="password" name=""/></div>
+                        Sexo:<br/>
                            <input type="radio" name="sexo" value="Masculino"/> Masculino</p>
                            <input type="radio" name="sexo" value="Femenino"/> Femenino</p>
                            <input type="radio" name="sexo" value="Otros"/> Otros</p>
@@ -140,9 +142,10 @@
 </footer>
 
     
-<a href="https://wa.me/543482511580/?text=Hola,escribe tu consulta! Muchas gracias. " class="boton-whatsapp" target="_blank">
-    <i class="fa-brands fa-whatsapp wht-flotante"></i>
- </a>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=543482551580&text=Hola! gracias por comunicarte con Espacio Humano RRHH." class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
 
                 
 
