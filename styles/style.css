@@ -188,13 +188,13 @@ img {
 }
 #enviarCv{
     text-align: center;
-    margin-top: 30px;
+    margin: 20px;
     
 }
 #enviarCv{
     text-align: center;
     padding-left: 100px;
-    padding-top: 20px;
+    padding-top: 10px;
     background-color:rgba(27, 96, 91, 0.103);
 }
 .formulario{
@@ -215,24 +215,17 @@ img {
     
 }
 #contacto{
-
+    width: 97%;
+    margin:30px;
     text-align:center;
-    padding:20px;
     padding-top: 20px;
     background-color:rgba(27, 96, 91, 0.103);
-    margin-top:10px;
-    
-
-}
-#contacto {
-    width: 100%;
     margin-top:20px;
-    
-}
- #contacto{
+    margin-left: 20px;
+    margin-right: 20px;
     background:#cae3e1;
     color: #1b605b;
-    margin: 10px;
+
 }
 .titulo-final{
     text-align: right;
@@ -284,7 +277,7 @@ input {
 
 /*MEDIA QUERIS, RESPONSIVE*/
 
-@media screen and (max-width:700px){
+@media screen and (max-width:400px){
 
 header{
     background-position: center;
