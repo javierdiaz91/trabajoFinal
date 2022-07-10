@@ -53,7 +53,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 18px;
     margin-right: 10px;
-    margin:10px;
+    margin:5px;
     
 
 }
@@ -63,6 +63,8 @@ ul {
   }
 li {
     float: right;
+    margin: 2px;
+    
   }
   
   a {
@@ -74,7 +76,7 @@ li {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 10px;
     text-decoration: none;
   }
   
@@ -277,17 +279,16 @@ input {
 
 /*MEDIA QUERIS, RESPONSIVE*/
 
-@media screen and (max-width:400px){
+@media screen and (max-width:400px) {
 
 header{
     background-position: center;
-    width: 80%;
-    height: 100%;
+    width: 100%;
+    height: auto;
  }
  .contenedor{
     padding: 5px 5px;
     width: 100%;
-    max-width: 100%;
     overflow: hidden;
  }
  #titulo{
@@ -306,11 +307,10 @@ header{
     width: 100%;
     flex-direction: column;
     justify-content: center;
-    margin: 10px;
 }
 nav{
-    text-align: center;
-    padding: 4px 4pxpx 0 0;
+    float: left;
+    padding: 4px 4px 0 0;
     background: rgba(68, 197, 158, 0.473);  /* fallback for old browsers */
     background: linear-gradient(to right, hsla(65, 100%, 84%, 0.144), rgba(67, 198, 172, 0.466)), url(../assets/LOGO\ TRANSPARENTE.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(to right, hsla(65, 100%, 84%, 0.123), rgba(67, 198, 172, 0.466)), url(../assets/LOGO\ TRANSPARENTE.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -339,22 +339,30 @@ ul {
   }
 li {
     display: flex;
-    text-align: center;
+    text-align: left;
     
   }
   
   a {
     display: block;
-    padding: 10px;
+    padding: 5px;
     margin: 3px;
     
   }
   li a {
     display: block;
     color: white;
-    text-align: center;
-    padding: 10px 10px;
+    text-align: left;
+    padding: 5px 5px;
     text-decoration: none;
+    margin-bottom: 2px;
+
+  }
+  .wave{
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
   }
   #servicios h2 {
     display: flex; 
