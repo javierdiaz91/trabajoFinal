@@ -288,7 +288,7 @@ header{
  }
  .contenedor{
     padding: 5px 5px;
-    width: 80%;
+    width: 100%;
     overflow: hidden;
  }
  #titulo{
@@ -301,6 +301,7 @@ header{
      flex-direction: column;
      justify-content: center;
      align-items: center;
+     width: 100%;
 
 }
 #acerca-de .hover-imagenes img{
